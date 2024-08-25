@@ -57,3 +57,19 @@ Based on the [GAD instructions](https://github.com/jaktestowac/gad-gui-api-demo/
 - The application will be available at `http://localhost:3000`,
 
 - Visit `http://localhost:3000/tools/swagger.html` to find Swagger GAD.
+
+# Testing in Postman
+
+## To authenticate in Postman:
+
+- When filling out the `request` in `Authorization`, select the `Bearer Token` type and paste the generated `access_token` from the login request.
+
+## You should plan a clear structure for your queries:
+
+- Organize individual sections in directories, each corresponding to different HTTP methods and the `Request URL` obtained from `Swagger GAD`:
+
+  ![](https://github.com/EwaRRPoland/GAD-Postman/blob/9e9d0264ed60d6d854a2c5320104c23aa351c237/assets/GadPostman_requests.jpg)
+
+- You can include tests in your `request`:
+
+  ![](https://github.com/EwaRRPoland/GAD-Postman/blob/9e9d0264ed60d6d854a2c5320104c23aa351c237/assets/GadPostman_tests.jpg)

@@ -70,8 +70,8 @@ Na podstawie [instrukcji do GAD](https://github.com/jaktestowac/gad-gui-api-demo
 
 - w katalogach należy umieścić poszczególne sekcje i w nich odpowiadające metody protokołu HTTP oraz `Request URL` pobrany ze `Swagger GAD`:
 
-![]()
+![](https://github.com/EwaRRPoland/GAD-Postman/blob/9e9d0264ed60d6d854a2c5320104c23aa351c237/assets/GadPostman_requests.jpg)
 
 - do `request` możemy dołaczy testy:
 
-![]()
+![](https://github.com/EwaRRPoland/GAD-Postman/blob/9e9d0264ed60d6d854a2c5320104c23aa351c237/assets/GadPostman_tests.jpg)
